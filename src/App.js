@@ -40,11 +40,12 @@ function App() {
           onNext={onNext}
         />
         <Characters characters={characters} />
-        <Pagination 
+        <Pagination
           prev={info.prev}
           next={info.next}
           onPrevius={onPrevius}
-          onNext={onNext}/>
+          onNext={onNext}
+        />
       </div>
     </>
   );
